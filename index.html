@@ -23,13 +23,50 @@
 
   <!-- Custom CSS Stylesheet -->
   <style>
+    body{
+      font-family: 'Manrope', sans-serif;
+      margin: 0;
+      overflow-y: scroll;
+    }
 
+    nav{
+      overflow: hidden;
+      position: fixed;
+      top: 0; 
+      width: 100%;
+    }
   </style>
 </head>
 <body>
    <!-- Header Start -->
   <header>
-
+    <!-- Navigation Menu Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/other/favicon.svg" alt="" width="30" height="24">
+        </a>
+        <form class="d-flex">
+          <input class="form-control me-2 rounded-pill pe-5" type="search" placeholder="Search Best Products" aria-label="Search">
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Phones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Laptop & MacBook</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
     <!-- Header End -->
 
